@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maincontainer{
+ display: flex;
+}
+.imgcontainer{
+    height: 100vh;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 222, 222);
+}
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.imgg{
+    width: 300px;
+    height: 400px;
+    fill: blue;
+}
+h3{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 50px;
+}
+.loginpage p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.lab1{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.lab2{
+    padding-top: 15px;
+    font-size: 20px;
+}
+input{
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+}
+.check{
+    margin-top: 10px;
+    margin-right: 10px;
+    accent-color:green;
+    
+}
+.checkmate {
+    display:flex;
+}
+.checkmate p{
+    padding-top: 10px;
+}
+button{
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 7px 7px 7px 7px;
+    background-color: rgb(103, 1, 199);
+    color: white;
+    cursor: pointer;
+}
+.signup{
+    color: rgb(103, 1, 199);
+    border-style: none;
+    background-color: white;
+}

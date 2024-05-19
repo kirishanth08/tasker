@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasker</title>
+    <link rel="stylesheet" href="nextpage.css">
+</head>
+<body>
+    <div class=" container">
+        <div class="sub">
+            <img src="assets/tasks-app-svgrepo-com.svg" alt="img" class="image1">
+        <div class="icons">
+            <img src="assets/clipboard.png" alt="" class="image2">
+            <button> <b>tasks </b></button>
+            </div>
+            <div class="icons1">
+            <img src="assets/download.png" alt="" class="image3">
+              <div class="drop"> <a href="" class="categories"> <b>categories</b> ﹀ </a>
+                <div class="option">       
+                    <div class="colu"> <a href="#"> <div class="grey"></div> none</a> </div>
+                    <div class="colu1"> <a href="#"> <div class="pink"></div> home </a> </div>
+                    <div class="colu2"> <a href="#"> <div class="yellow"></div> school </a> </div>
+                    <div class="colu3"> <a href="#"> <div class="blue"></div> shoping list </a> </div>
+                    <div class="colu4"> <a href="#"> + add more </a> </div>                
+            </div>
+            </div>
+        
+        </div>
+        <div class="icons2">
+            <img src="assets/download (1).png" alt="" class="image4">
+            <button> <b>settings</b> </button>
+        </div>
+             <div class="icons3">
+                <img src="assets/logout.png" alt="" class="image5">
+                <button id="log" onclick="logout()">logout</button>
+             </div>
+    </div>
+
+ <!-- left side over -->
+
+
+
+ <div class="right">
+    <div class="one">
+         <h1> All Your Tasks </h1>
+         <div class="line1">
+            <h3>Tasks</h3>
+            <button class="butt"> All </button>
+            <button class="butt1">done </button>
+            <button class="butt2">Not Done</button>
+            <img src="assets/filter.png" alt="" class="fun">
+         </div>
+    </div>
+
+    <div class="blocker">
+       <div class="block1">
+        <input type="checkbox" class="radio" onchange="toggleTask(this)" >
+    </div> 
+     <div class="kodu">
+        <h4> example task</h4>
+        <div class="mpt"></div>
+        <p>home</p>
+    </div>
+   
+    <div class="block2">
+        <img src="assets/pencil.png" alt="" class="pencil" >
+        <img src="assets/delete.png" alt="" class="del" id="deletetask" >
+
+
+    </div>
+    </div>
+
+
+
+ <button class="add" id="addmoretask" onclick="showPopup()"> + Addmore </button>
+ <div class="right">
+    <!-- Your existing task list goes here -->
+</div>
+ <div id="popup" class="popup">
+     <div class="popup-content">
+         <!-- <span class="close-button" onclick="hidePopup()">&times;</span> -->
+         <h4>Insert Name</h4>
+         <input type="text" placeholder="Task Name" id="inputu">
+         <p> <b>Select Category</b></p>
+         <div class="drop3" onclick="toggleCategoryOptions()">Select Category</div>
+         <div id="categoryOptions" class="optionss">
+             <a href="#" onclick="selectCategory('Home', 'lightcoral')"><div class="pinkk"></div>Home</a>
+             <a href="#" onclick="selectCategory('Shopping List', 'sandybrown')"><div class="yelloww"></div>Shopping List</a>
+             <a href="#" onclick="selectCategory('School', 'deepskyblue')"><div class="bluee"></div>School</a>
+         </div>
+         <div class="buttons">
+             <button onclick="addTask()" id="btn1">Add</button>
+             <button onclick="hidePopup()" id="btn2">Cancel</button>
+         </div>
+     </div>
+ </div>
+ 
+ 
+    </div> 
+
+ </div>
+    </div>
+     <script src="nextpage.js"></script>
+</body>
+</html>
+

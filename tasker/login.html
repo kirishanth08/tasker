@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasker</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="imgcontainer">
+        <img src="assets/tasks-app-svgrepo-com.svg" alt="" class="imgg">
+        </div>
+        <div class="loginpage">
+            <h1>welcome to tasker</h1>
+            <p>please enter your information to access your tasks</p>
+            <label class="lab1" for="email"> Email</label>
+            <input id="usernamee" type="text" placeholder="enter your email">
+            <label class="lab2" for="password"> password</label>
+            <input id="passwordd" type="text" placeholder=" enter your password">
+            <div class="checkmate">
+            <input class="check" type="checkbox" > 
+            <p>remember me</p>
+        </div>
+            <button id="buttt" onclick="signIn()"> sign in </button>
+                <p> Don't have an account ? <button id="sigma" onclick="sig()"> signup </button></p>
+        </div>
+    </div>
+  <script src="login.js"></script>
+</body>
+</html>

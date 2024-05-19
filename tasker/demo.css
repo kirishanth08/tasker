@@ -1,0 +1,67 @@
+.popup-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    margin-bottom: 200px;
+}
+
+#categoryInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#categoryInput option {
+    background-color: white;
+    color: #333;
+}
+
+.category-options {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #888;
+    padding: 10px;
+    width: 200px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.category-options div {
+    padding: 5px 10px;
+}
+
+.category-options .pink {
+    background-color: lightcoral;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.category-options .yellow {
+    background-color: sandybrown;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.category-options .blue {
+    background-color: deepskyblue;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.category-options div:hover {
+    background-color: #f1f1f1;
+}
